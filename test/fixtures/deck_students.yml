@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  student: one
+  deck: one
+  usefulness: false
+  uselessness: false
+  bookmark: false
+  exclude: false
+
+two:
+  student: two
+  deck: two
+  usefulness: false
+  uselessness: false
+  bookmark: false
+  exclude: false
