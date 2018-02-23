@@ -23,6 +23,12 @@ class Student < ApplicationRecord
 		end
 	end
 
+	def decks_included
+		deck_students.where(exclude: false).each do |deck_student|
+			deck_student.deck
+		end
+	end
+
 end
 
 # array = [1, Student.new, "hey", true]
